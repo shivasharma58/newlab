@@ -1,0 +1,11 @@
+build:
+  scripts :
+  - apt update -y
+  - npm install -y 
+  - npm install
+
+deploy:
+  scripts:
+  - apt update -y
+  - apt install nodejs -y
+  - node app.jss
